@@ -1,11 +1,13 @@
 #include "iostream"
 #include "color.h"
+#include "ctime"
 
 using namespace std;
 /*Hádání tajného čísla*/
 int main(int argc, char *argv[])
 {
     system("chcp 65001>nul");
+    srand(time(0));
     int tajneCislo;
     int hracovoCislo;
 
