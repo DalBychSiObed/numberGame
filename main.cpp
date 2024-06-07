@@ -15,6 +15,14 @@ int main(int argc, char *argv[])
     cout<<"Zadej svůj tip na tajné číslo: ";
     cin>>hracovoCislo;
     
+    if (tajneCislo==hracovoCislo)
+    {
+        cout<<"Skvělé! Uhodl jsi číslo!";
+    }
+    else{
+        cout<<"Bohužel, číslo bylo "<<tajneCislo;
+    }
+    
 
     return 0;
 }
