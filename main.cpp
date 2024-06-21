@@ -17,10 +17,10 @@ int main(int argc, char *argv[])
     
     if (tajneCislo==hracovoCislo)
     {
-        cout<<"Skvělé! Uhodl jsi číslo!";
+        cout<<GREEN<<"Skvělé! Uhodl jsi číslo!"<<RESET;
     }
     else{
-        cout<<"Bohužel, číslo bylo "<<tajneCislo;
+        cout<<RED<<"Bohužel, číslo bylo "<<tajneCislo<<RESET;
     }
     
 
