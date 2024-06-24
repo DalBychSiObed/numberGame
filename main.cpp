@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
     else{
         cout<<RED<<"Bohužel, číslo bylo "<<tajneCislo<<RESET;
     }
+    cout<<"\nkonec hry"<<endl;
     
 
     return 0;
